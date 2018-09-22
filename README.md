@@ -15,11 +15,11 @@
 示例以git为例子
 
 ```
-mkdir /usr/local/lock_bin
-echo "export PATH=/usr/local/lock_bin:${PATH}" >> /ect/profile
-cp command_lock.sh /usr/local/lock_bin/git
+sudo kdir /usr/local/lock_bin
+sudo echo "export PATH=/usr/local/lock_bin:${PATH}" >> /etc/profile
+sudo cp command_lock.sh /usr/local/lock_bin/git
 sudo chmod +x /usr/local/lock_bin/git
-source /ect/profile
+source /etc/profile
 ```
 
 # 使用方法
