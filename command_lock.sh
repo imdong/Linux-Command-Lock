@@ -18,7 +18,7 @@
 COMMAND_NAME="git"
 
 # 需要被锁定接管的参数名(竖线隔开|正则表达式规则)
-COMMAND_LOCK_ARGS="^(checkout|pull|push|merge)(\s|$)"
+COMMAND_LOCK_ARGS="^(checkout|pull|push|merge)( |$)"
 
 # 临时锁有效时间 (单位: s/秒)
 COMMAND_LOCK_TEMP_TIME=120
